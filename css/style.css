@@ -49,6 +49,9 @@ h1,h2,h3,h4,h5,h6{
 	padding: 0;
 	display: flex;
 }
+.menu-opened{
+	display: none;
+}
 header ul{
 	list-style: none;
 }
@@ -221,7 +224,11 @@ section{
 		display: block;
 		background: rgba(255, 255, 255,0.3);
 		padding: 10px 20px;
-			}
+		position: absolute;
+    	top: 100px;
+    	left: 570px;
+    	font-size: 20px;
+		}
 	/*показыываем меню по клику на "Гамбургер"*/
 	.info-left,
 	.info-right{

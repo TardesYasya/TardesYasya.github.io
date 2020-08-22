@@ -1,5 +1,5 @@
 $(function (){
 	$('.menu-img').click(function (){
-		$('.menu').toggleClass('show-menu')
+		$('.menu-opened').toggleClass('show-menu')
 	})
 })
