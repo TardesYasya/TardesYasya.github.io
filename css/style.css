@@ -225,8 +225,8 @@ section{
 		background: rgba(255, 255, 255,0.3);
 		padding: 10px 20px;
 		position: absolute;
-    	top: 100px;
-    	left: 570px;
+    	top: 13vh;
+    	left: 70vw;
     	font-size: 20px;
 		}
 	/*показыываем меню по клику на "Гамбургер"*/
